@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>*</pattern>
+        <template>I have no answer for that.</template>
+    </category>
+  
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Nice to meet you! I’m here to help you explore computing careers.
+            Would you like to see some career options? Please reply YES or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Nice to meet you! I’m here to help you explore computing careers.
+            Would you like to see some career options? Please reply YES or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            Nice to meet you! I’m here to help you explore computing careers.
+            Would you like to see some career options? Please reply YES or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHATS UP</pattern>
+        <template>
+            Nice to meet you! I’m here to help you explore computing careers.
+            Would you like to see some career options? Please reply YES or NO.
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            Great! Let's identify your skills and preferences to recommend a career path:
+            <br/>1. I enjoy programming and building applications.
+            <br/>2. I like working with data and finding patterns.
+            <br/>3. I am interested in protecting systems and preventing cyber threats.
+            <br/>4. I enjoy managing IT systems and networks.
+            <br/>5. I love creating interactive and engaging experiences like games.
+            <br/>If you are done, type EXIT.
+            <br/>Please type the number that best matches your preference to learn more about the corresponding career.
+        </template>
+    </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            No problem! If you need career advice, just let me know!
+        </template>
+    </category>
+
+    <category>
+        <pattern>1</pattern>
+        <template>
+            Software Developer: Software developers design, code, and debug software applications. 
+            <br/>Skills: Programming in Python, Java, or C++.
+            <br/>If you are done, type EXIT or if you would like to learn more, type OPTIONS.
+        </template>
+    </category>
+
+    <category>
+        <pattern>2</pattern>
+        <template>
+            Data Scientist: Data scientists analyze large datasets to extract insights. 
+            <br/>Skills: Machine learning, statistical analysis, Python/R.
+            <br/>If you are done, type EXIT or if you would like to learn more, type OPTIONS.
+        </template>
+    </category>
+
+    <category>
+        <pattern>3</pattern>
+        <template>
+            Cybersecurity Analyst: Cybersecurity analysts protect systems and networks from cyber threats. 
+            <br/>Skills: Encryption, firewalls, incident response.
+            <br/>If you are done, type EXIT or if you would like to learn more, type OPTIONS.
+        </template>
+    </category>
+
+    <category>
+        <pattern>4</pattern>
+        <template>
+            System Administrator: System administrators manage and configure IT systems and networks. 
+            <br/>Skills: Operating systems, network infrastructure.
+            <br/>If you are done, type EXIT or if you would like to learn more, type OPTIONS.
+        </template>
+    </category>
+
+    <category>
+        <pattern>5</pattern>
+        <template>
+            Game Developer: Game developers design and build video games. 
+            <br/>Skills: Graphics programming, Unity/Unreal Engine.
+            <br/>If you are done, type EXIT or if you would like to learn more, type OPTIONS.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPTIONS</pattern>
+        <template>
+            Here are the career options:
+            <br/>1. Software Developer
+            <br/>2. Data Scientist
+            <br/>3. Cybersecurity Analyst
+            <br/>4. System Administrator
+            <br/>5. Game Developer
+            <br/>Please type the number of the career you'd like to learn more about.
+            <br/>If you are done, type EXIT.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>EXIT</pattern>
+        <template>If you don’t want to explore careers right now, feel free to come back later!</template>
+    </category>
+    
+    <category>
+        <pattern>0</pattern>
+        <template>
+            Sorry, I don’t have information on that. Please select a number between 1 and 5.
+        </template>
+    </category>
+    <category>
+        <pattern>6</pattern>
+        <template>
+            Sorry, I don’t have information on that. Please select a number between 1 and 5.
+        </template>
+    </category>
+    <category>
+        <pattern>7</pattern>
+        <template>
+            Sorry, I don’t have information on that. Please select a number between 1 and 5.
+        </template>
+    </category>
+    <category>
+        <pattern>8</pattern>
+        <template>
+            Sorry, I don’t have information on that. Please select a number between 1 and 5.
+        </template>
+    </category>
+    <category>
+        <pattern>9</pattern>
+        <template>
+            Sorry, I don’t have information on that. Please select a number between 1 and 5.
+        </template>
+    </category>
+    
+</aiml>
